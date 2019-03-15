@@ -1,29 +1,34 @@
 <!DOCTYPE html> 
 <html lang="en">
   <head> 
+    <title>Account Creation</title>
     <meta charset="utf-8"> 
+    <link rel="stylesheet" href="./css/basic_website_1.css">
   </head>
   <body>
-    <div>
-        <h1><strong>Randomize</strong>
-        <h2><em>A fun, simple, website</em></h2>
-        <p>This website can be used to view a collection of four different types of photos. You can choose between space, sport, wildlife and plant photos, or combine them all. You decide what you want to see, sign up below! </p>
- 
-   <!--FORM-->
-     </div>
-        Sign Up Here:<br />
-        <input type="text" name="firstname" placeholder="First Name">
-        <input type="text" name="lastname" placeholder="Last Name"><br />
-        <input type="text" name="email" placeholder="Email">
-        <input type="text" name="password" placeholder="Password"><br /> 
-        Type of Photos you want to see:<br />
-        <input type="checkbox" name="photos" value="Space">Space<br /> 
-        <input type="checkbox" name="photos" value="Sports">Sports<br /> 
-        <input type="checkbox" name="photos" value="Wildlife">Wildlife<br /> 
-        <input type="checkbox" name="photos" value="Plant">Plant<br />
-        <input type="submit" value="Create account"> 
+    <main>
+        <h1>Randomize</h1>
+        <h2>A fun, simple, website</h2>
+        <p>This website can be used to view a collection of four different types of photos. You can choose between space, sport, wildlife and plant photos, or combine them all. You decide what you want to see, sign up below!</p>
+    </main>
+
+   <!-----FORM------->
+     <div class="container">
+      Sign Up Here:
+        <form>
+            <input type="text" class="info" name="firstname" placeholder="First Name">
+            <input type="text" class="info" name="lastname" placeholder="Last Name"><br>
+            <input type="email" class="info" placeholder="Email">
+            <input type="password" class="info" placeholder="Password"><br>
+            Type of photos you want to see:<br>
+            <input type="checkbox" name="photos" value="Space">Space<br>
+            <input type="checkbox" name="photos" value="Sports">Sports<br>
+            <input type="checkbox" name="photos" value="Wildlife">Wildlife<br>
+            <input type="checkbox" name="photos" value="Plant">Plant<br>
+             <input type="submit" value="Create Account"> 
+        </form>
       </div>
-   <!--End FORM-->
+   <!-----END- FORM---->
       <hr>
    <footer>
     <p>Contact information: 
